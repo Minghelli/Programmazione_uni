@@ -1,4 +1,4 @@
-list = ["A","B","c"]
+from sys import argv
 
-for i in list:
-    print(i)
+for arg in argv:
+    print(arg)
