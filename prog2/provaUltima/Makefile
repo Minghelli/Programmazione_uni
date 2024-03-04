@@ -6,3 +6,5 @@ liste.o: liste.cc liste.h
 	g++ -c -Wall liste.cc
 compito.o: compito.cc liste.h tipo.h
 	g++ -c -Wall compito.cc
+cl:
+	rm *.o exe
