@@ -1,3 +1,4 @@
 Python/test_ambiente
 *.o
 *.out
+.gitignore
