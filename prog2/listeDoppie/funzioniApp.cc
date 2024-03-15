@@ -60,7 +60,6 @@ void stampaRic(lista l){
     if(l != NULL){
         stampaRic(tail(l));
         cout<<head(l)<<" ";
-        
     }
     cout<<endl;
 }
